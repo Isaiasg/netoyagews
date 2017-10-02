@@ -1,3 +1,10 @@
 baseurl = "/"
 languageCode = "en-us"
+DefaultContentLanguage = "en"
+
+[Languages]
+[Languages.en]
 title = "Homepage"
+
+[Languages.fr]
+title = "Accueil"
