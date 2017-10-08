@@ -1,5 +1,6 @@
 +++
 title = "Values"
 type = "values"
-page="/values.html"
+page = "/values.html"
+draft = true
 +++
