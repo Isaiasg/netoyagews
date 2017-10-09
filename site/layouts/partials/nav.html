@@ -10,7 +10,7 @@
 			{{ $currentPage := . }}
 			{{ range .Site.Menus.main }}
 			<li class='{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}currentLink{{end}}'>
-				<a href="{{.URL}}" class='pa3 no-underline db'>{{ .Name }}</a>
+				<a href="{{.URL}}" class='pa3 no-underline db' style="white-space:nowrap">{{ .Name }}</a>
 			</li>
 			{{ end }}
 		</ul>
