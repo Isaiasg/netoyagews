@@ -10,7 +10,7 @@ title = "Homepage"
 [[languages.en.menu.main]]
 url    = "/en/post"
 name   = "News"
-weight = 0
+weight = 4
 
 [languages.fr]
 title = "Accueil"
@@ -18,4 +18,4 @@ title = "Accueil"
 [[languages.fr.menu.main]]
 url    = "/fr/post"
 name   = "Actualites"
-weight = 0
+weight = 4
