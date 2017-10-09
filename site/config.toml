@@ -2,21 +2,20 @@ baseurl = "/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
-sectionPagesMenu = "main"
+#sectionPagesMenu = "main"
 
-[Languages]
-[Languages.en]
+[languages.en]
 title = "Homepage"
 
-[[Languages.en.menu.main]]
-url    = "/"
-name   = "Home"
+[[languages.en.menu.main]]
+url    = "/en/post"
+name   = "News"
 weight = 0
 
-[[Languages.en.menu.main]]
-url    = "/ss"
-name   = "ss"
-weight = 200
-
-[Languages.fr]
+[languages.fr]
 title = "Accueil"
+
+[[languages.fr.menu.main]]
+url    = "/fr/post"
+name   = "Actualites"
+weight = 0
