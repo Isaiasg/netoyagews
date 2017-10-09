@@ -9,7 +9,9 @@
 	<ul class="flex b grey-3">
 			{{ $currentPage := . }}
 			{{ range .Site.Menus.main }}
-			<li><a href="{{.URL}}" class='pa3 no-underline db{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} hover{{end}}'>{{ .Name }}</a></li>
+			<li class='{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}currentLink{{end}}'>
+				<a href="{{.URL}}" class='pa3 no-underline db'>{{ .Name }}</a>
+			</li>
 			{{ end }}
 		</ul>
 </nav>
