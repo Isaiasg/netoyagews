@@ -1,6 +1,9 @@
----
-title: "Contact"
-date: 2017-10-08T20:57:36-04:00
-draft: false
----
++++
+title = "Contact"
+type = "contact"
+page="/contact.html"
+[menu.main]
+name = "Nous joindre"
+weight = 5
++++
 

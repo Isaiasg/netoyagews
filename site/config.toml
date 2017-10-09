@@ -17,5 +17,5 @@ title = "Accueil"
 
 [[languages.fr.menu.main]]
 url    = "/fr/post"
-name   = "Actualites"
+name   = "Actualités"
 weight = 4
