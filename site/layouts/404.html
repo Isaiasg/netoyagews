@@ -1,8 +1,11 @@
-<html>
-    <head>
-        <title>Not found</title>
-    </head>
-    <body>
-        <h1>Not found</h1>
-    </body>
-</html>
+{{ partial "head" . }}
+
+{{ partial "nav" . }}
+
+{{ partial "jumbotron" (dict "imageUrl" "/img/home/jumbotron.jpg" "title" "404" "subtitle" "Support sustainable farming while enjoying a cup") }}
+
+<div class="mw7 center ph3 pt4">
+    {{ partial "why" (dict "heading" "Not found" "text" "The content you are looking for is not found. " "imageUrl" "/img/logo.svg") }}
+</div>
+
+{{ partial "footer" . }}
