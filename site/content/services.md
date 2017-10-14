@@ -6,5 +6,7 @@ type: "services"
 menu:
   main:
       weight: 1
+head:
+  title: "Services"
 ---
 
