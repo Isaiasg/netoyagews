@@ -15,11 +15,12 @@
 		{{ end }}
 	</ul>	
 </nav>
-<div class="fl w-100">
-<ul class="flex pl1 b " >
+<div class="fr centerLang pv1 pv2-m">
+	<ul class="b" >
 		{{ range .Translations }}
-			<li class="pl0 flex lang">
-				<a href="/{{ .Lang }}" class='white f6 pr3 no-underline db' style="white-space:nowrap">{{ .Lang | upper }}</a>
+			<li class="ph0 flex lang">
+				<a href="/{{ .Lang }}" class='white f6 pr3 no-underline db'>{{ .Lang | upper }}</a>
 			</li>
 		{{ end}}
-	</ul></div>
+	</ul>
+</div>
