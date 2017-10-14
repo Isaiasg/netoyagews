@@ -1,17 +1,27 @@
 <nav class="overflow-x-scroll overflow-x-visible-ns flex justify-between items-center center bg-white divider-grey relative">
-
 	<!-- Logo -->
-	<a href="{{ .LanguagePrefix }}" class="ph2 db mr4 h-100 w2 flex-none">
-		<img src="/img/simple.svg" alt="logo" class="br0 db mb0 w-100"/>
+	<div>
+	<a href="{{ .LanguagePrefix }}" class="pr2 db mr4 h-100 w2 flex-none">
+		<img src="/img/simple.svg" alt="logo" class="br0 db mb0 w-100 fl"/>
 	</a>
+
+	<ul class="flex pl1">
+		{{ range .Translations }}
+			<li>
+				<a href="/{{ .Lang }}" class='pv3 ph1 ph2-m no-underline db' style="white-space:nowrap">{{ .Lang | upper }}</a>
+			</li>
+		{{ end}}
+	</ul>
+</div>
 	<!-- Primary Nav -->
 
 	<ul class="flex b grey-3">
-			{{ $currentPage := . }}
-			{{ range .Site.Menus.main }}
+
+		{{ $currentPage := . }}
+		{{ range .Site.Menus.main }}
 			<li class='{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}currentLink{{end}}'>
-				<a href="{{.URL}}" class='pa3 no-underline db' style="white-space:nowrap">{{ .Name }}</a>
+				<a href="{{.URL}}" class='pv3 pa1 pa3-l no-underline db' style="white-space:nowrap">{{ .Name }}</a>
 			</li>
-			{{ end }}
-		</ul>
+		{{ end }}
+	</ul>	
 </nav>

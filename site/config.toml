@@ -19,3 +19,11 @@ title = "Accueil"
 url    = "/fr/post"
 name   = "Actualités"
 weight = 4
+
+[languages.es]
+title = "Inicio"
+
+[[languages.es.menu.main]]
+url    = "/es/post"
+name   = "Noticias"
+weight = 4
