@@ -19,7 +19,7 @@
 	<ul class="b" >
 		{{ range .Translations }}
 			<li class="ph0 flex lang">
-				<a href="/{{ .Lang }}" class='white f6 pr3 no-underline db'>{{ .Lang | upper }}</a>
+				<a href="{{ .Permalink }}" class='white f6 pr3 no-underline db'>{{ .Lang | upper }}</a>
 			</li>
 		{{ end}}
 	</ul>
