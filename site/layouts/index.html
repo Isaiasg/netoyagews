@@ -2,14 +2,14 @@
 
 {{ partial "nav" . }}
 
-{{ partial "jumbotron" (dict "imageUrl" "/img/home/jumbotron.jpg" "title" "Great coffee with a conscience" "subtitle" "Support sustainable farming while enjoying a cup") }}
+{{ partial "jumbotron" (dict "imageUrl" "/img/home/jumbotron.jpg" "title" .Params.head.title "subtitle" "") }}
 
 <div class="mw7 center ph3 pt4">
-    {{ partial "why" (dict "heading" "Why Solo et Lolo?" "text" "Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available." "imageUrl" "/img/logo.svg") }}
+    {{ partial "why" (dict "heading" .Params.intro.why "text" .Params.intro.reason "imageUrl" "/img/logo.svg") }}
 </div>
 
-{{ partial "text-and-image" (dict "heading" "Our values" "text" "Coffee is an amazing part of human culture but it has a dark side too – one of colonialism and mindless abuse of natural resources and human lives. We want to turn this around and return the coffee trade to the drink’s exhilarating, empowering and unifying nature." "buttonText" "Read more" "buttonLink" "/values") }}
+{{ partial "text-and-image" (dict "heading" .Params.middle.head "text" .Params.middle.content "buttonText" .Params.middle.link "buttonLink" "/values" "image" .Params.middle.image) }}
 
-{{ partial "2-up" (dict "heading" "What we offer" "description" " is the ultimate spot for coffee lovers who want to learn about their java’s origin and support the farmers that grew it. We take coffee production, roasting and brewing seriously and we’re glad to pass that knowledge to anyone." "svg1" "/img/illustrations/coffee.svg" "text1" "We sell green and roasted coffee beans that are sourced directly from independent farmers and farm cooperatives. We’re proud to offer a variety of coffee beans grown with great care for the environment and local communities. Check our post or contact us directly for current availability." "svg2" "/img/illustrations/coffee-gear.svg" "text2" "We offer a small, but carefully curated selection of brewing gear and tools for every taste and experience level. No matter if you roast your own beans or just bought your first french press, you’ll find a gadget to fall in love with in our shop." "buttonText" "See all products" "buttonLink" "/products"  ) }}
+{{ partial "2-up" (dict "heading" .Params.offers.head "description" .Params.offers.first "svg1" "/img/illustrations/coffee.svg" "text1" .Params.offers.second "svg2" "/img/illustrations/coffee-gear.svg" "text2" .Params.offers.third  "buttonText" "See all products" "buttonLink" "/products"  ) }}
 
 {{ partial "footer" . }}
