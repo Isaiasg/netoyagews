@@ -4,6 +4,10 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 #sectionPagesMenu = "main"
 
+[params]
+    custom_css = ["css/dropdown.css"]
+    custom_js = ["js/dropdown.js"]
+
 [languages.en]
 title = "Homepage"
 
