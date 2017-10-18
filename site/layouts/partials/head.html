@@ -2,8 +2,11 @@
 <html lang="en-US">
 	<head>
 
-		<title>{{ .Title }} | Kaldi</title>
+		<title>{{ .Title }} - Soso et Lolo Cleaning</title>
 		<link rel="stylesheet" href="/css/main.css"/>
+		{{ range .Site.Params.custom_css }}
+		<link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
+	  	{{ end }}
 
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -21,7 +24,7 @@
 
 		<!-- Open Graph -->
 		<meta property="og:type" content="business.business">
-		<meta property="og:title" content="Kaldi | Great coffee with a conscience">
+		<meta property="og:title" content="Soso et Lolo Cleaning">
 		<meta property="og:url" content="/">
 		<meta property="og:image" content="/og-image.jpg">
 

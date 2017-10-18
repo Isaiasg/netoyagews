@@ -12,4 +12,8 @@
   & ul a:hover, & ul a:focus {
     box-shadow: inset 0 -4px 0 var(--primary);
   }
+  & li.currentLink {
+    /*box-shadow: inset 0 -4px 0 var(--primary);*/
+    background-color: var(--grey-1);
+  }
 }

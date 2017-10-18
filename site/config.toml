@@ -1,10 +1,33 @@
 baseurl = "/"
 languageCode = "en-us"
-DefaultContentLanguage = "en"
+defaultContentLanguage = "fr"
+defaultContentLanguageInSubdir = true
+#sectionPagesMenu = "main"
 
-[Languages]
-[Languages.en]
+[params]
+    custom_css = ["css/dropdown.css"]
+    custom_js = ["js/dropdown.js"]
+
+[languages.en]
 title = "Homepage"
 
-[Languages.fr]
+[[languages.en.menu.main]]
+url    = "/en/post"
+name   = "News"
+weight = 4
+
+[languages.fr]
 title = "Accueil"
+
+[[languages.fr.menu.main]]
+url    = "/fr/post"
+name   = "Actualités"
+weight = 4
+
+[languages.es]
+title = "Inicio"
+
+[[languages.es.menu.main]]
+url    = "/es/post"
+name   = "Noticias"
+weight = 4

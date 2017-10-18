@@ -1,0 +1,18 @@
+{{ partial "head" . }}
+{{ partial "nav" . }}
+{{ partial "jumbotron" (dict "imageUrl" "/img/about/jumbotron.jpg" "title" "About us") }}
+
+<div class="mw7 center ph3 pt4">
+
+  {{ partial "media-block" (dict "heading" .Params.us.heading "text" .Params.us.description "imageUrl" "/img/about/shade-grown.jpg") }}
+
+  {{ partial "media-block-reverse" (dict "heading" .Params.mission.heading "text" .Params.mission.description "imageUrl" "/img/about/single-origin.jpg") }}
+
+  {{ partial "media-block" (dict "heading" .Params.difference.heading "text" .Params.difference.description "imageUrl" "/img/about/sustainable-farming.jpg") }}
+
+  {{ partial "media-block-reverse" (dict "heading" .Params.animals.heading "text" .Params.animals.description "imageUrl" "/img/about/direct-sourcing.jpg") }}
+
+  {{ partial "media-block" (dict "heading" .Params.eco.heading "text" .Params.eco.description "imageUrl" "/img/about/reinvest-profits.jpg") }}
+</div>
+
+{{ partial "footer" . }}

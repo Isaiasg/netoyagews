@@ -1,19 +1,26 @@
 <nav class="overflow-x-scroll overflow-x-visible-ns flex justify-between items-center center bg-white divider-grey relative">
-
 	<!-- Logo -->
-	<a href="/" class="pa3 db mr4 h-100 w3 flex-none">
-		<img src="/img/logo.svg" alt="Kaldi logo" class="br0 db mb0 w-100"/>
+	<a href="{{ .LanguagePrefix }}" class="pr2 db mr4 h-100 w2 flex-none">
+		<img src="/img/simple.svg" alt="logo" class="br0 db mb0 w-100 fl"/>
 	</a>
-
 	<!-- Primary Nav -->
+
 	<ul class="flex b grey-3">
-		<li><a href="/products" class="pa3 no-underline db">Products</a></li>
 
-		<li><a href="/values" class="pa3 no-underline db">Values</a></li>
-
-		<li><a href="/post" class="pa3 no-underline db">Blog</a></li>
-
-		<li><a href="/contact" class="pa3 no-underline db">Contact</a></li>
-	</ul>
-
+		{{ $currentPage := . }}
+		{{ range .Site.Menus.main }}
+			<li class='{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}currentLink{{end}}'>
+				<a href="{{.URL}}" class='pv3 pa1 pa3-l no-underline db' style="white-space:nowrap">{{ .Name }}</a>
+			</li>
+		{{ end }}
+	</ul>	
 </nav>
+<div class="fr centerLang pv1 pv2-m">
+	<ul class="b" >
+		{{ range .Translations }}
+			<li class="ph0 flex lang">
+				<a href="{{ .Permalink }}" class='white f6 pr3 no-underline db'>{{ .Lang | upper }}</a>
+			</li>
+		{{ end}}
+	</ul>
+</div>
