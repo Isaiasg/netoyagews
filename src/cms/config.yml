@@ -25,8 +25,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "Index-en"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Type, name: type, widget: hidden, default: index}
-          - {label: Page, name: page, widget: hidden, default: "/index.html"}
+          - {label: Type, name: type, widget: hidden, default: home}
           - {label: Heading, name: head, widget: object, fields:[
               {label: Title, name: title, widget: string}
           ]}
