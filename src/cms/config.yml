@@ -48,7 +48,7 @@ collections: # A list of collections the CMS should be able to edit
           ]}
       - file: "site/content/about.en.md"
         label: "About (en)"
-        name: "About-en"
+        name: "about"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Type, name: type, widget: hidden, default: about}
