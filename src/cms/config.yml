@@ -34,7 +34,7 @@ collections: # A list of collections the CMS should be able to edit
               {label: Why, name: why, widget: string},
               {label: Reason, name: reason, widget: string}
           ]}
-          - {label: Middle, name: middle, widget: object, fields[
+          - {label: Middle, name: middle, widget: object, fields:[
               {label: Head, name: head, widget: string},
               {label: Content, name: content, widget: text},
               {label: Image, name: image, widget: image},
