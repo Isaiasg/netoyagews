@@ -52,6 +52,7 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Type, name: type, widget: hidden, default: about}
+          - {label: Page, name: page, widget: hidden, default: './single.html'}
           - {label: Us, name: us, widget: object, fields:[
               {label: Heading, name: heading, widget: string},
               {label: Description, name: description, widget: text}
