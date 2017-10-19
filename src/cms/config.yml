@@ -40,4 +40,11 @@ collections: # A list of collections the CMS should be able to edit
               {label: Image, name: image, widget: image},
               {label: Link, name: link, widget: string}
           ]}
+          - {label: Offers, name: offers, widget: object, fields:[
+              {label: Head, name: head, widget: string},
+              {label: First, name: first, widget: text},
+              {label: Second, name: second, widget: text},
+              {label: Third, name: third, widget: text},              
+              {label: Link, name: link, widget: string}
+          ]}
           
