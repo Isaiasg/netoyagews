@@ -17,9 +17,23 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Intro Blurb", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "pages"
-    label: "Pages"
+  - name: "about"
+    label: "About"
     folder: "about"
+    files:    
+      - file: "site/content/about.en.md"
+        label: "About (en)"
+        name: "about"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Type, name: type, widget: hidden, default: about}
+          - {label: Page, name: page, widget: hidden, default: './about.html'}
+          - {label: Us, name: us, widget: object, fields:[
+              {label: Heading, name: heading, widget: string},
+              {label: Description, name: description, widget: text}
+          ]}
+  - name: "index"
+    label: "Index"
     files:
       - file: "site/content/_index.en.md"
         label: "Home page (en)"
@@ -46,16 +60,4 @@ collections: # A list of collections the CMS should be able to edit
               {label: Second, name: second, widget: text},
               {label: Third, name: third, widget: text},              
               {label: Link, name: link, widget: string}
-          ]}
-      - file: "site/content/about.en.md"
-        label: "About (en)"
-        name: "about"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Type, name: type, widget: hidden, default: about}
-          - {label: Page, name: page, widget: hidden, default: './about.html'}
-          - {label: Us, name: us, widget: object, fields:[
-              {label: Heading, name: heading, widget: string},
-              {label: Description, name: description, widget: text}
-          ]}
-          
+          ]}    
