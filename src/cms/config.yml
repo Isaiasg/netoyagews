@@ -25,7 +25,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "about"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Type, name: type, widget: hidden, default: about}
+          - {label: Type, name: type, widget: hidden, default: "about"}
           - {label: Page, name: page, widget: hidden, default: './about.html'}
           - {label: Us, name: us, widget: object, fields:[
               {label: Heading, name: heading, widget: string},
