@@ -28,10 +28,16 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Type, name: type, widget: hidden, default: index}
           - {label: Page, name: page, widget: hidden, default: "/index.html"}
           - {label: Heading, name: head, widget: object, fields:[
-            {label: Title, name: title, widget: string}
+              {label: Title, name: title, widget: string}
           ]}
           - {label: intro, name: intro, widget: object, fields:[
-            {label: Why, name: why, widget: string},
-            {label: Reason, name: reason, widget: string}
+              {label: Why, name: why, widget: string},
+              {label: Reason, name: reason, widget: string}
+          ]}
+          - {label: Middle, name: middle, widget: object, fields[
+              {label: Head, name: head, widget: string},
+              {label: Content, name: content, widget: text},
+              {label: Image, name: image, widget: image},
+              {label: Link, name: link, widget: string}
           ]}
           
