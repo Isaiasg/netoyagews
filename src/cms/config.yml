@@ -46,4 +46,14 @@ collections: # A list of collections the CMS should be able to edit
               {label: Third, name: third, widget: text},              
               {label: Link, name: link, widget: string}
           ]}
+      - file: "site/content/about.en.md"
+        label: "About (en)"
+        name: "About-en"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Type, name: type, widget: hidden, default: about}
+          - {label: Us, name: us, widget: object, fields:[
+              {label: Heading, name: heading, widget: string}
+              {label: Description, name: description, widget: text}
+          ]}
           
