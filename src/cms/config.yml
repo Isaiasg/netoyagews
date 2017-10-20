@@ -19,7 +19,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "about"
     label: "About"
-    folder: "."
+    folder: "site/content/about"
     files:    
       - file: "site/content/about.en.md"
         label: "About (en)"
