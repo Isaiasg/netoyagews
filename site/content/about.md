@@ -1,8 +1,7 @@
 ---
 title: "About"
-date: 2017-10-08T19:09:57-04:00
-draft: false
 type: "about"
+draft: false
 menu:
   main:
       weight: 4
@@ -28,3 +27,4 @@ eco:
   description: >
     Le developpement durable nous tiens à coeur, c'est la raison pour laquelle nos poduits sont biodegreadables, non toxiques pour les personnes ainsi que les animaux
 ---
+
