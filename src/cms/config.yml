@@ -38,7 +38,7 @@ collections: # A list of collections the CMS should be able to edit
     editor:
       preview: true
     files:    
-      - file: "site/content/about.md"
+      - file: "site/content/about.en.md"
         label: "About (en)"
         name: "about"
         fields:
@@ -50,11 +50,11 @@ collections: # A list of collections the CMS should be able to edit
               {label: Description, name: description, widget: text}
           ]}
   - name: "index"
-    label: "Index"
+    label: "Index (en)"
     files:
       - file: "site/content/_index.en.md"
         label: "Home page (en)"
-        name: "Index-en"
+        name: "index"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Type, name: type, widget: hidden, default: _index}
