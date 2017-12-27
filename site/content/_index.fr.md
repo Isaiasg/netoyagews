@@ -8,9 +8,13 @@ intro:
     why: "Porquoi appeler Sosso et Lolo?"
     reason: "We care about clean environments"
 middle:
-    head: "Our values"
-    content: >
-        Coffee is an amazing part of human culture but it has a dark side too – one of colonialism and mindless abuse of natural resources and human lives. We want to turn this around and return the coffee trade to the drink’s exhilarating, empowering and unifying nature.
+    head: "Nos valeurs"
+    content:
+      - La passion du service
+      - L’amour des pitous
+      - L’honnêteté
+      - La rigueur
+      - Le respect de l’environnement
     image: "/img/home/about-section.jpg"
     link: "Read more"
 offers:
