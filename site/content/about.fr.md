@@ -8,18 +8,34 @@ menu:
       name: "À propos de nous"
       weight: 3
 us:
-  heading: Qui sommes-nous
+  heading: Qui sommes-nous?
   description: >
-     Nous sommes deux jeunes professionelles passionnées qui ont le soucil de detail et qui ont le desir de vous offrir une experience expectionnelle ay ay ay
+     Ayant travaillé dans le milieu hôtelier, où nous avons acquis une solide expérience en entretien ménager, nous sommes deux passionnées de l’excellence, du service de qualité.  Nous avons développé au fil des ans le souci du détail, une expertise ainsi qu’une touche spéciale qui font de nous et notre équipe, les personnes les plus compétentes et les plus dédiées, à qui confier votre intérieur ou vos bureaux.
 mission:
   heading: Notre mission
   description: >
-    C'est d'etre reconnu comme étant un leader dans le domaine du nettoyage résidentiel et commercial, 
-    en offrant un service de haute qualité, mais aussi en utilisant des produits bio-dégradables. Notre but principal est de :’’Vous redonner votre temps’’.
+    Fournir les meilleurs services et conseils en matière de nettoyage résidentiel et commercial, tout en utilisant des produits verts, biologiques, fabriqués au Québec. Notre objectif est de vous décharger des corvées et tâches ménagères, vous permettant ainsi d’optimiser votre temps et d’évoluer dans un environnement propre, sain et agréable.
+vision:
+  heading: Notre vision
+  description: Devenir la référence dans le domaine de l’entretien ménager à Montréal.
 difference:
   heading: Ce qui nous différencie
   description: >
-    Ce qui nous différencie des autres compagnies de nettoyage. Nous avons des produits specifiques non-toxique et surtout efficaces pour enlever les taches et les odeurs de vos pitous.Également, nous avons des équipements à la pointe de la technologie. Un processus de recrutement soigneux
+    Les consommateurs manifestent souvent le désir de disposer sous un même toit, de plusieurs et même, de tous les produits offerts par une marque ou un commerçant.
+    Avec Nettoyage Soso et Lolo, c’est un vœu réalisé, puisque nos services concernent à la fois :
+    * Vos résidences
+    * Vos bureaux
+    * Vos chers pitous
+promise:
+  heading: Notre promesse
+  description: >
+    * Etre à l’écoute de vos besoins  
+    * Vous garantir la fiabilité et le professionnalisme de nos collaborateurs  
+    * Vous assurer de la courtoisie de nos collaborateurs  
+    * Nous servir de produits testés, sans danger pour vos pitous et vous  
+    * Vous offrir des prix compétitifs  
+    * Dépasser vos attentes  
+    * Vous fournir un service hors-pair  
 animals:
   heading: Les pitous
   description: >
