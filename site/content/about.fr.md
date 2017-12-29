@@ -28,14 +28,14 @@ difference:
     * Vos chers pitous
 promise:
   heading: Notre promesse
-  description: >
-    * Etre à l’écoute de vos besoins  
-    * Vous garantir la fiabilité et le professionnalisme de nos collaborateurs  
-    * Vous assurer de la courtoisie de nos collaborateurs  
-    * Nous servir de produits testés, sans danger pour vos pitous et vous  
-    * Vous offrir des prix compétitifs  
-    * Dépasser vos attentes  
-    * Vous fournir un service hors-pair  
+  description:
+    - Etre à l’écoute de vos besoins  
+    - Vous garantir la fiabilité et le professionnalisme de nos collaborateurs  
+    - Vous assurer de la courtoisie de nos collaborateurs  
+    - Nous servir de produits testés, sans danger pour vos pitous et vous  
+    - Vous offrir des prix compétitifs  
+    - Dépasser vos attentes  
+    - Vous fournir un service hors-pair  
 animals:
   heading: Les pitous
   description: >
