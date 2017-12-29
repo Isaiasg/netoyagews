@@ -8,9 +8,9 @@ menu:
     weight: 2
 ---
 
-# Plan de travail
-
-## Chambre/salon/autres pièces
+<h1 class="f2 b lh-title mb2">Plan de travail </h1>
+\
+<h2 class="f4 b lh-title mb2">Chambre/salon/autres pièces</h2>
 
 * Nettoyer les miroirs
 * Nettoyage général des meubles
@@ -19,7 +19,8 @@ menu:
 * Vider la corbeille
 * Sur demande (stores)
 
-## Salle de bain
+\
+<h2 class="f4 b lh-title mb2">Salle de bain</h2>
 
 * Nettoyer la Douche ou le bain
 * Nettoyer les poignées de portes
@@ -31,7 +32,8 @@ menu:
 * Aspirer le plancher
 * Vider la corbeille
 
-## Cuisine
+\
+<h2 class="f4 b lh-title mb2">Cuisine</h2>
 
 * Nettoyer les comptoirs
 * Nettoyer l’intérieur et extérieur du micro-onde
@@ -42,3 +44,5 @@ menu:
 * Passer la balayeuse sur les planchers
 * Vider les Corbeilles
 * Sur demande l’intérieur des (électroménagers)
+
+\

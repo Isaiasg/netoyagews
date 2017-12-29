@@ -1,6 +1,6 @@
 {{ partial "head" . }}
 {{ partial "nav" . }}
-{{ partial "jumbotron" (dict "imageUrl" "/img/about/jumbotron.jpg" "title" "About us") }}
+{{ partial "jumbotron" (dict "imageUrl" "/img/about/jumbotron.jpg" "title" .Params.menu.main.name) }}
 
 <div class="mw7 center ph3 pt4">
 
