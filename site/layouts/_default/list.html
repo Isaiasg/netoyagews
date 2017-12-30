@@ -1,7 +1,14 @@
 {{ partial "head" . }}
 {{ partial "nav" . }}
 
-{{ partial "jumbotron" (dict "imageUrl" "/img/blog-index.jpg" "title" "Latest stories") }}
+{{ $currentPage := . }}
+{{ range .Site.Menus.main }}
+  {{if eq $currentPage.URL .URL }}
+    {{ $.Scratch.Set "title" .Name }}
+  {{end}}
+{{ end }}
+
+{{ partial "jumbotron" (dict "imageUrl" "/img/blog-index.jpg" "title" ( $.Scratch.Get "title" )) }}
 
 <div class="mw7 center">
   <ul class="flex-ns flex-wrap mhn1-ns pa3">

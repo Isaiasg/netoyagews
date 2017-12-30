@@ -12,7 +12,7 @@ defaultContentLanguageInSubdir = true
 title = "Homepage"
 
 [[languages.en.menu.main]]
-url    = "/en/post"
+url    = "/en/post/"
 name   = "News"
 weight = 4
 
@@ -20,7 +20,7 @@ weight = 4
 title = "Accueil"
 
 [[languages.fr.menu.main]]
-url    = "/fr/post"
+url    = "/fr/post/"
 name   = "Actualités"
 weight = 4
 
@@ -28,6 +28,6 @@ weight = 4
 title = "Inicio"
 
 [[languages.es.menu.main]]
-url    = "/es/post"
+url    = "/es/post/"
 name   = "Noticias"
 weight = 4
