@@ -20,26 +20,26 @@ vision:
   description: Devenir la référence dans le domaine de l’entretien ménager à Montréal.
 difference:
   heading: Ce qui nous différencie
-  description: >
-    Les consommateurs manifestent souvent le désir de disposer sous un même toit, de plusieurs et même, de tous les produits offerts par une marque ou un commerçant.
-    Avec Nettoyage Soso et Lolo, c’est un vœu réalisé, puisque nos services concernent à la fois :
-    * Vos résidences
-    * Vos bureaux
-    * Vos chers pitous
+  description:
+    Les consommateurs manifestent souvent le désir de disposer sous un même toit, de plusieurs et même, de tous les produits offerts par une marque ou un commerçant. Avec Nettoyage Soso et Lolo, c’est un vœu réalisé, puisque nos services concernent à la fois.
+  points:
+    - Vos résidences
+    - Vos bureaux
+    - Vos chers pitous
 promise:
   heading: Notre promesse
   description:
-    - Etre à l’écoute de vos besoins  
-    - Vous garantir la fiabilité et le professionnalisme de nos collaborateurs  
-    - Vous assurer de la courtoisie de nos collaborateurs  
-    - Nous servir de produits testés, sans danger pour vos pitous et vous  
-    - Vous offrir des prix compétitifs  
-    - Dépasser vos attentes  
-    - Vous fournir un service hors-pair  
-animals:
-  heading: Les pitous
-  description: >
-    decrire l'histoire damour pour lolo et eloi et egalement les problemes a ressoudre. j'ai utilise tel produit et equipement que ressoudre mon probleme.photo lolo et eloi
+    - Etre à l’écoute de vos besoins
+    - Vous garantir la fiabilité et le professionnalisme de nos collaborateurs
+    - Vous assurer de la courtoisie de nos collaborateurs
+    - Nous servir de produits testés, sans danger pour vos pitous et vous
+    - Vous offrir des prix compétitifs
+    - Dépasser vos attentes
+    - Vous fournir un service hors-pair
+#animals:
+#  heading: Les pitous
+#  description: >
+#    decrire l'histoire damour pour lolo et eloi et egalement les #problemes a ressoudre. j'ai utilise tel produit et equipement que #ressoudre mon probleme.photo lolo et eloi
 eco:
   heading: Cote ecoresponsable
   description: >
