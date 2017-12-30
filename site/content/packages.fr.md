@@ -1,5 +1,5 @@
 ---
-title: "Packages"
+title: "Forfaits"
 date: 2017-10-08T20:57:52-04:00
 draft: false
 menu:
@@ -7,6 +7,13 @@ menu:
     name: "Forfaits"
     weight: 2
 ---
+
+<h1 class="f2 b lh-title mb2">Quartiers desservis à Montréal</h1>
+\
+
+* Ile des Sœurs
+* Ville Mont-Royal
+* Westmount
 
 <h1 class="f2 b lh-title mb2">Plan de travail </h1>
 \
