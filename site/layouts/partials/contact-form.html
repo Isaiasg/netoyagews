@@ -1,16 +1,12 @@
 <!-- Contact -->
 <div class="mb4">
-  <h4 class="f3 b lh-title mb3 tc">Drop us a line below</h4>
-
   <form action="thank-you" netlify name="contact">
-          <!-- Name -->
       <div class="mt3">
         <fieldset>
           <input type="text" id="name" placeholder="Name" class="w-100 mb2">
           <label for="name">Name</label>
         </fieldset>
       </div>
-          <!-- Email -->
       <div class="mt3">
         <fieldset>
           <input type="email" id="email" placeholder="Email" class="w-100 mb2">
@@ -24,7 +20,6 @@
           <label for="ville">Ville</label>
         </fieldset>
       </div>
-          <!-- Email -->
       <div class="ph1-l w-50-l">
         <fieldset>
           <input type="text" id="postalCode" placeholder="Code postal" class="w-100 mb2">
@@ -37,11 +32,19 @@
           <label for="Telephone">Telephone</label>
         </fieldset>
       </div>
-    
-
-        <!-- Message -->
+      <br />
+      <fieldset>
+          <legend>Cochez le ou les service (s) désiré(s)</legend>
+          <input type="checkbox" name="services" value="Residential">Nettoyage résidentiel personnalisé<br />
+          <input type="checkbox" name="services" value="Deep">Grand Ménage<br />
+          <input type="checkbox" name="services" value="Moving">Nettoyage avant et après déménagement<br />
+          <input type="checkbox" name="services" value="Regular">Entretien ménager occasionnel et régulier <br />
+          <input type="checkbox" name="services" value="Deep">Promenade pour vos pitous<br />
+      </fieldset>
+      <br />
     <fieldset>
-      <textarea name="name" placeholder="Your message" rows="8" cols="80" id="message" class="w-100"></textarea>
+        <legend>Questions / Commentaires </legend>
+      <textarea name="message" placeholder="Your message" rows="8" cols="80" id="message" class="w-100"></textarea>
       <label for="message">Your message</label>
     </fieldset>
         <!-- Button -->
