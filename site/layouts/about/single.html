@@ -12,7 +12,7 @@
 
   {{ partial "media-block-reverse-promise" (dict "heading" .Params.promise.heading "text" .Params.promise.description "imageUrl" "/img/about/single-origin.jpg") }}
 
-  {{ partial "media-block" (dict "heading" .Params.difference.heading "text" .Params.difference.description "imageUrl" "/img/about/sustainable-farming.jpg") }}
+  {{ partial "media-block-difference" (dict "heading" .Params.difference.heading "text" .Params.difference.description "list" .Params.difference.points "imageUrl" "/img/about/sustainable-farming.jpg") }}
   
   {{ partial "media-block-reverse" (dict "heading" .Params.eco.heading "text" .Params.eco.description "imageUrl" "/img/about/reinvest-profits.jpg") }}
 <!--
