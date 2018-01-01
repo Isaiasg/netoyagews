@@ -1,45 +1,47 @@
 <!-- Contact -->
 <div class="mb4">
-  <form action="thank-you" netlify name="contact">
+  <form name="contact" netlify-honeypot="bot-field" action="thank-you" netlify>
+      <p style="display:none;">
+          <label>Don’t fill this out: <input name="bot-field"></label>
+        </p>
       <div class="mt3">
-        <fieldset>
-          <input type="text" id="name" placeholder="Name" class="w-100 mb2">
+          <fieldset>
+          <input type="text" id="name" name="name" placeholder="Name" class="w-100 mb2" value="">
           <label for="name">Name</label>
-        </fieldset>
+          </fieldset>
       </div>
       <div class="mt3">
-        <fieldset>
-          <input type="email" id="email" placeholder="Email" class="w-100 mb2">
+          <fieldset>
+          <input type="email" id="email" name="email" placeholder="Email" class="w-100 mb2" value="">
           <label for="email">Email</label>
-        </fieldset>
+          </fieldset>
       </div>
-
       <div class="ph1-l w-50-l">
         <fieldset>
-          <input type="text" id="ville" placeholder="Ville" class="w-100 mb2">
+          <input type="text" id="ville" name="ville" placeholder="Ville" class="w-100 mb2">
           <label for="ville">Ville</label>
         </fieldset>
       </div>
       <div class="ph1-l w-50-l">
         <fieldset>
-          <input type="text" id="postalCode" placeholder="Code postal" class="w-100 mb2">
-          <label for="Code postal">Code postal</label>
+          <input type="text" id="postalCode" name="postalcode" placeholder="Code postal" class="w-100 mb2">
+          <label for="postalCode">Code postal</label>
         </fieldset>
       </div>
       <div class="ph1-l w-50-l">
         <fieldset>
-          <input type="text" id="phone" placeholder="Telephone" class="w-100 mb2">
-          <label for="Telephone">Telephone</label>
+          <input type="text" id="phone" name="phone" placeholder="Telephone" class="w-100 mb2">
+          <label for="phone">Telephone</label>
         </fieldset>
       </div>
       <br />
       <fieldset>
           <legend>Cochez le ou les service (s) désiré(s)</legend>
-          <input type="checkbox" id="services" name="services" value="Residential">Nettoyage résidentiel personnalisé<br />
-          <input type="checkbox" id="services" name="services" value="Deep">Grand Ménage<br />
-          <input type="checkbox" id="services" name="services" value="Moving">Nettoyage avant et après déménagement<br />
-          <input type="checkbox" id="services" name="services" value="Regular">Entretien ménager occasionnel et régulier <br />
-          <input type="checkbox" id="services" name="services" value="Walk">Promenade pour vos pitous<br />
+          <input type="checkbox" name="services[]" value="Residential">Nettoyage résidentiel personnalisé<br />
+          <input type="checkbox" name="services[]" value="Deep">Grand Ménage<br />
+          <input type="checkbox" name="services[]" value="Moving">Nettoyage avant et après déménagement<br />
+          <input type="checkbox" name="services[]" value="Regular">Entretien ménager occasionnel et régulier <br />
+          <input type="checkbox" name="services[]" value="Walk">Promenade pour vos pitous<br />
       </fieldset>
       <br />
     <fieldset>
