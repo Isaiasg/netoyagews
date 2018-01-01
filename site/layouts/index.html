@@ -8,8 +8,8 @@
     {{ partial "why" (dict "heading" .Params.intro.why "text" .Params.intro.reason "imageUrl" "/img/logo.svg") }}
 </div>
 
-{{ partial "text-and-image" (dict "heading" .Params.middle.head "text" .Params.middle.content "buttonText" .Params.middle.link "buttonLink" "/values" "image" .Params.middle.image) }}
-
+{{ partial "text-and-image" (dict "heading" .Params.middle.head "text" .Params.middle.content "image" .Params.middle.image) }}
+<!--
 {{ partial "2-up" (dict "heading" .Params.offers.head "description" .Params.offers.first "svg1" "/img/illustrations/coffee.svg" "text1" .Params.offers.second "svg2" "/img/illustrations/coffee-gear.svg" "text2" .Params.offers.third  "buttonText" "See all products" "buttonLink" "/products"  ) }}
-
+-->
 {{ partial "footer" . }}
