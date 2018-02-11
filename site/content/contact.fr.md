@@ -12,6 +12,6 @@ schedule:
     content: "8h à 18h"
 info:
     heading: "Infos"
-    phone: "514-951-XXXX"
-    email: "XXXX@gmail.com"
+    phone: "514-951-3210"
+    email: "sossoetlolo@gmail.com"
 ---
