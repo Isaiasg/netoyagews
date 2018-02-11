@@ -5,11 +5,18 @@
 {{ partial "jumbotron" (dict "imageUrl" "/img/home/jumbotron.jpg" "title" .Params.head.title "subtitle" "") }}
 
 <div class="mw7 center ph3 pt4">
-    {{ partial "why" (dict "heading" .Params.intro.why "text" .Params.intro.reason "imageUrl" "/img/logo.svg") }}
+    <img src="/img/logo.svg" alt="" class="db w6 center pv4">
+
+    <div class="ph3-m w-50-m center">
+            <h3 class="f3 b lh-title mb1">{{.Params.intro.why}}</h3>
+            <p>{{.Params.intro.reason}}</p>
+    </div>
 </div>
 
-{{ partial "text-and-image" (dict "heading" .Params.middle.head "text" .Params.middle.content "image" .Params.middle.image) }}
 <!--
+{{ partial "why" (dict "heading" .Params.intro.why "text" .Params.intro.reason "imageUrl" "/img/logo.svg") }}
+{{ partial "text-and-image" (dict "heading" .Params.middle.head "text" .Params.middle.content "image" .Params.middle.image) }}
+{{ partial "text-and-image" (dict "heading" .Params.middle.head "text" .Params.middle.content "image" .Params.middle.image) }}
 {{ partial "2-up" (dict "heading" .Params.offers.head "description" .Params.offers.first "svg1" "/img/illustrations/coffee.svg" "text1" .Params.offers.second "svg2" "/img/illustrations/coffee-gear.svg" "text2" .Params.offers.third  "buttonText" "See all products" "buttonLink" "/products"  ) }}
 -->
 {{ partial "footer" . }}
