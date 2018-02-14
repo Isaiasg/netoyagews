@@ -4,11 +4,31 @@
 {{ partial "jumbotron" (dict "imageUrl" "/img/about/jumbotron.jpg" "title" .Params.menu.main.name ) }}
 <div class="ph3 bg-off-white">
 	<div class="center mw6 pv3">
-
-		<img src="/img/logo.svg" alt="" class="db w6 center pv4">
-
-		<p></p>
-
+		<h1 class="f2 b lh-title mb2">Quartiers desservis à Montréal</h1>
+			<ul>
+				<li class="services">Ahuntsic-Cartieville</li>
+				<li class="services">Anjou</li>
+				<li class="services">Côte-des-Neiges</li>
+				<li class="services">Côte Saint-Luc</li>
+				<li class="services">Griffintown</li>
+				<li class="services">Hochelaga-Maisonneuve</li>
+				<li class="services">Île-des-Soeurs</li>
+				<li class="services">Le Plateau-Mont-Royal</li>
+				<li class="services">Montréal-Nord</li>
+				<li class="services">Montréal Ouest</li>
+				<li class="services">Mont-Royal</li>
+				<li class="services">Notre-Dame-de-Grâce</li>
+				<li class="services">Outremont</li>
+				<li class="services">Parc-Extension</li>
+				<li class="services">Rosemont–La Petite-Patrie</li>
+				<li class="services">Saint-Henri</li>
+				<li class="services">Saint-Laurent</li>
+				<li class="services">Saint-Léonard</li>
+				<li class="services">Saint-Michel</li>
+				<li class="services">Ville Mont-Royal</li>
+				<li class="services">Villeray</li>
+				<li class="services">Westmount</li>
+			</ul>
 		<div class="pb4">
 			{{ range .Params.testimonials }}
 			  {{ partial "blockquote" . }}

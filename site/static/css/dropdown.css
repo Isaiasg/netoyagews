@@ -8,3 +8,16 @@ li.lang:before {
     display: inline-table;
     width:auto;
 }
+
+ul li ul li {
+    padding-left: 3ex;
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+li.services {
+    padding-left: 3ex;
+    list-style: square;
+    list-style-position: inside;
+}
+
