@@ -8,48 +8,43 @@ menu:
     weight: 2
 ---
 
-<h1 class="f2 b lh-title mb2">Quartiers desservis à Montréal</h1>
-\
-
-* Ile des Sœurs
-* Ville Mont-Royal
-* Westmount
-
 <h1 class="f2 b lh-title mb2">Plan de travail </h1>
 \
 <h2 class="f4 b lh-title mb2">Chambre/salon/autres pièces</h2>
 
-* Nettoyer les miroirs
-* Nettoyage général des meubles
-* Lampes et luminaires
+* Nettoyage:
+  * Miroirs
+  * Lampes
+  * Luminaires
+  * Nettoyage général des meubles
 * Passer l’aspirateur
 * Vider la corbeille
-* Sur demande (stores)
+* Fenêtre (sur demande)
 
 \
 <h2 class="f4 b lh-title mb2">Salle de bain</h2>
 
-* Nettoyer la Douche ou le bain
-* Nettoyer les poignées de portes
-* Nettoyer les miroirs
-* Nettoyer le meuble lavabo
-* Nettoyer le chrome
-* Désinfecter la Toilette
+* Nettoyage:
+  * La douche ou le bain
+  * Les poignées de portes
+  * Les miroirs
+  * Le meuble lavabo
+  * Le chrome
+* Désinfecter la toilette
 * Désinfecter le plancher
-* Aspirer le plancher
+* Passer l'aspirateur
 * Vider la corbeille
 
 \
 <h2 class="f4 b lh-title mb2">Cuisine</h2>
 
-* Nettoyer les comptoirs
-* Nettoyer l’intérieur et extérieur du micro-onde
-* Nettoyer l’extérieur des appareils électroménagers
-* Nettoyer les tables et chaises
-* Nettoyer les taches sur les murs, portes et poignées de porte
-* Nettoyer les éviers
-* Passer la balayeuse sur les planchers
+* Nettoyage:
+  * Les comptoirs
+  * L’extérieur des appareils électroménagers
+  * Les tables et chaises
+  * Les taches sur les murs, portes et poignées de porte
+  * Les éviers
 * Vider les Corbeilles
-* Sur demande l’intérieur des (électroménagers)
+* Intérieur électroménager( sur demande)
 
 \
