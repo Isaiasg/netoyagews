@@ -1,8 +1,8 @@
-{{ partial "head" . }}
+{{ partial "carthead" . }}
 {{ partial "nav" . }}
 
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
 
-{{ partial "table" .Params.pricing }}
+{{partial "cart" (dict "title" .Params.cart.head.title)}}
 
 {{ partial "footer" . }}
