@@ -16,7 +16,7 @@ menu:
   * Miroirs
   * Lampes
   * Luminaires
-  * Nettoyage général des meubles
+  * Époussetage des meubles
 * Passer l’aspirateur
 * Vider la corbeille
 * Fenêtre (sur demande)
@@ -29,7 +29,7 @@ menu:
   * Les poignées de portes
   * Les miroirs
   * Le meuble lavabo
-  * Le chrome
+  * Robinet
 * Désinfecter la toilette
 * Désinfecter le plancher
 * Passer l'aspirateur
@@ -40,11 +40,11 @@ menu:
 
 * Nettoyage:
   * Les comptoirs
-  * L’extérieur des appareils électroménagers
+  * Appareils électroménagers (extérieur)
   * Les tables et chaises
-  * Les taches sur les murs, portes et poignées de porte
+  * Les tâches sur les murs, portes et poignées de porte
   * Les éviers
 * Vider les Corbeilles
-* Intérieur électroménager( sur demande)
+* Intérieur électroménager (sur demande)
 
 \
