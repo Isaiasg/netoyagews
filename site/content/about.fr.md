@@ -41,13 +41,7 @@ promise:
 #  description: >
 #    decrire l'histoire damour pour lolo et eloi et egalement les #problemes a ressoudre. j'ai utilise tel produit et equipement que #ressoudre mon probleme.photo lolo et eloi
 eco:
-<<<<<<< HEAD
   heading: Côté ecoresponsable
   description: >
     Le developpement durable nous tiens à coeur, c'est la raison pour laquelle nos produits sont biodegradables, non toxiques pour les personnes ainsi que pour les animaux
-=======
-  heading: Côté écoresponsable
-  description: >
-    Le développement durable nous tiens à coeur, c'est la raison pour laquelle nos produits sont biodegradables, non toxiques pour les personnes ainsi que pour les animaux
->>>>>>> dev
 ---
