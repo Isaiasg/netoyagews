@@ -12,7 +12,7 @@
 			<div>
 				<h3 class="f4 b lh-title mb1 primary">Menu</h3>
 				<ul class="mb3">
-					<li><a href="{{ .LanguagePrefix }}/" class="link">Home</a></li>
+					<li><a href="{{ .LanguagePrefix }}/" class="link">Accueil</a></li>
 					{{ $currentPage := . }}
 					{{ range .Site.Menus.main }}
 					<li><a href="{{.URL}}" class="link">{{ .Name }}</a></li>
@@ -30,7 +30,7 @@
 			</div>
 		-->
 			<div>
-				<h3 class="f4 b lh-title mb2 primary">Social media</h3>
+				<h3 class="f4 b lh-title mb2 primary">Media social</h3>
 				<ul class="mhn2">
 					{{ partial "social-icon" (dict "link" "https://www.facebook.com/Sosso-et-Lolo-Cleaning-346452959161362/" "svg" "facebook") }}
 					{{ partial "social-icon" (dict "link" "#" "svg" "twitter") }}

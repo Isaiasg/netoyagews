@@ -10,7 +10,7 @@ menu:
 us:
   heading: Qui sommes-nous?
   description: >
-     Ayant travaillé dans le milieu hôtelier, où nous avons acquis une solide expérience en entretien ménager, nous sommes deux passionnées de l’excellence, du service de qualité.  Nous avons développé au fil des ans le souci du détail, une expertise ainsi qu’une touche spéciale qui font de nous et notre équipe, les personnes les plus compétentes et les plus dédiées, à qui confier votre intérieur ou vos bureaux.
+     Ayant travaillé dans le milieu hôtelier, où nous avons acquis une solide expérience en entretien ménager, nous sommes deux passionnées de l’excellence, du service de qualité.  Nous avons développé au fil des ans le souci du détail, une expertise ainsi qu’une touche spéciale qui font de notre équipe et nous, les personnes les plus compétentes et les plus dédiées, à qui confier votre intérieur ou vos bureaux.
 mission:
   heading: Notre mission
   description: >
@@ -32,7 +32,7 @@ promise:
     - Etre à l'écoute de vos besoins
     - Vous garantir la fiabilité et le professionnalisme de nos collaborateurs
     - Vous assurer de la courtoisie de nos collaborateurs
-    - Nous servir de produits testés, sans danger pour vos pitous et vous
+    - Utiliser des produits testés, sans danger pour vos pitous et vous
     - Vous offrir des prix compétitifs
     - Dépasser vos attentes
     - Vous fournir un service hors-pair
@@ -41,7 +41,13 @@ promise:
 #  description: >
 #    decrire l'histoire damour pour lolo et eloi et egalement les #problemes a ressoudre. j'ai utilise tel produit et equipement que #ressoudre mon probleme.photo lolo et eloi
 eco:
+<<<<<<< HEAD
   heading: Côté ecoresponsable
   description: >
     Le developpement durable nous tiens à coeur, c'est la raison pour laquelle nos produits sont biodegradables, non toxiques pour les personnes ainsi que pour les animaux
+=======
+  heading: Côté écoresponsable
+  description: >
+    Le développement durable nous tiens à coeur, c'est la raison pour laquelle nos produits sont biodegradables, non toxiques pour les personnes ainsi que pour les animaux
+>>>>>>> dev
 ---
